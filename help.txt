@@ -1,0 +1,47 @@
+Commands available:
+
+type
+    Description: With this command, you can search through the information about various concerts, according to the specified parameters.
+
+    Options:
+            * genre=<genre>
+            Description: specifies a genre within which you can limit the results. For example, if you enter: "type genre=Country" the results will only have information about events in the Country genre.
+
+            * artist=<artist>
+            Description: specifies an artist within which you can limit the results. For example, if you enter: "type artist=Alan Turner" the results will only have information about events including that artist.
+
+            * month=<3-letter month abbreviation>
+            Description: specifies a month within which you can limit the results. Must enter in the 3-letter abbreviation for that month. For example, if you enter: "type month=Apr" the results will only have information about events occurring in that month.
+
+            * city=<city>
+            Description: specifies a city within which you can limit the results. For example, if you enter: "type city=Ann Arbor" the results will only have information about events in that city.
+
+pop
+  Description: With this command, you can search through the information about popular events in your area, according to the specified parameters.
+
+  Options:
+          * city=<city>
+          Description: specifies a city within which you can limit the results. For example, if you enter: "pop city=Detroit" the results will only have information about events in that city.
+
+          * state=<state>
+          Description: specifies a state within which you can limit the results. Must enter in the two-letter state abbreviation for that state. For example, if you enter: "type state=MI" the results will only have information about events in that city.
+
+popular
+      Description: With this command, you can get a list of results just about popular events near you. The popularity of events is determined by the amount of RSVPs gotten for that event, and the events that are most popular are returned with this command.
+
+next
+    Description: If prompted with this option, you can move on to another part of the program.
+
+exit
+    Description: If prompted with this option, you can leave the program.
+
+Data visualization commands:
+    Description: When prompted with options for different data visualizations, follow these commands:
+      * 1
+        Use this command to see a map of cities with concerts happening soon
+      * 2
+        Use this command to see a map of the locations of venues for concerts happening soon
+      * 3
+        Use this command to see a bar chart for the amount of popular events occurring at certain venues
+      * 4
+        Use this command to see a pie chart for the distribution of popular events occurring at certain venues
