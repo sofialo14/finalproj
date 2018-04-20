@@ -24,7 +24,7 @@ pop
           Description: specifies a city within which you can limit the results. For example, if you enter: "pop city=Detroit" the results will only have information about events in that city.
 
           * state=<state>
-          Description: specifies a state within which you can limit the results. Must enter in the two-letter state abbreviation for that state. For example, if you enter: "type state=MI" the results will only have information about events in that city.
+          Description: specifies a state within which you can limit the results. Must enter in the two-letter state abbreviation for that state. For example, if you enter: "type state=MI" the results will only have information about events in that state.
 
 popular
       Description: With this command, you can get a list of results just about popular events near you. The popularity of events is determined by the amount of RSVPs gotten for that event, and the events that are most popular are returned with this command.
