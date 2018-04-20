@@ -6,7 +6,6 @@ import csv
 import plotly.plotly as py
 import plotly.graph_objs as go
 from plotly.graph_objs import *
-import numpy as np
 
 try:
     cache_file = open('cache.json', 'r')
